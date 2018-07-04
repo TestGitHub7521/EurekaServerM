@@ -1,0 +1,8 @@
+applications:
+- name: eurekaservice
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  path: ./target/eurekaservice-0.0.1-SNAPSHOT.jar
+  routes:
+  - route: eurekaservice-sample.cfapps.io
